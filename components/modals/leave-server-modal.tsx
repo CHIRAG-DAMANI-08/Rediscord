@@ -65,7 +65,7 @@ export const LeaveServerModal = () => {
               variant="primary"
               onClick={onClick}
             >
-              Yes, I'm Sure
+              Confirm
             </Button>
           </div>
         </DialogFooter>

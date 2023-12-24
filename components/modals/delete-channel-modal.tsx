@@ -73,7 +73,7 @@ export const DeleteChannelModal = () => {
               variant="primary"
               onClick={onClick}
             >
-              Yes. I'm sure.
+              Confirm
             </Button>
           </div>
         </DialogFooter>
