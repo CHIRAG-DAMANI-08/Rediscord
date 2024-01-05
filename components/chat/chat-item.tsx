@@ -23,7 +23,6 @@ import {
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { useModal } from "@/hooks/use-modal-store";
-import exp from "constants";
 
 interface ChatItemProps {
   id: string;
@@ -116,7 +115,7 @@ export const ChatItem = ({
     form.reset({
       content: content,
     })
-  }, [content, form]);
+  }, [content]);
 
   const fileType = fileUrl?.split(".").pop();
 
@@ -247,5 +246,3 @@ export const ChatItem = ({
     </div>
   )
 }
-
-export default ChatItem;
